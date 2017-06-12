@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\GoGo_tour\DBAccess\bin\Release\DBAccess.dll
+C:\Users\Administrator\Desktop\GoGo_tour\DBAccess\bin\Release\DBAccess.pdb
+C:\Users\Administrator\Desktop\GoGo_tour\DBAccess\obj\Release\DBAccess.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\GoGo_tour\DBAccess\obj\Release\DBAccess.dll
+C:\Users\Administrator\Desktop\GoGo_tour\DBAccess\obj\Release\DBAccess.pdb

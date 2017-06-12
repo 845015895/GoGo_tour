@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoGo_tour", "GoGo_tour\GoGo_tour.csproj", "{7F20BD40-464F-44F9-906D-F8295F6E9AFB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BD9998E1-31AA-42B5-9D8A-CA6DF37E9C4E} = {BD9998E1-31AA-42B5-9D8A-CA6DF37E9C4E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBAccess", "DBAccess\DBAccess.csproj", "{BD9998E1-31AA-42B5-9D8A-CA6DF37E9C4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F20BD40-464F-44F9-906D-F8295F6E9AFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F20BD40-464F-44F9-906D-F8295F6E9AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F20BD40-464F-44F9-906D-F8295F6E9AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F20BD40-464F-44F9-906D-F8295F6E9AFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD9998E1-31AA-42B5-9D8A-CA6DF37E9C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD9998E1-31AA-42B5-9D8A-CA6DF37E9C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD9998E1-31AA-42B5-9D8A-CA6DF37E9C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD9998E1-31AA-42B5-9D8A-CA6DF37E9C4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

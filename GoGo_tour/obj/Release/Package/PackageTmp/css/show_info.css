@@ -1,0 +1,33 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+body{background-color:#F8F8FF;}
+/*导航栏*/
+#nav_bar{width: 100%; height: 70px;background-color: #e1b5b5;}
+#nav_bar_sec{margin: 0 auto; width: 1000px; height: 70px;}
+#logo_img{float: left; height: 70px; width: 120px; background-image: url("../img/logoko1.png"); background-size: cover;}
+#nav_bar ul{margin-left:30px;float: left; list-style: none; color: #000;} 
+#nav_bar ul li{font-weight: bolder; font-size: 20px; line-height: 70px; width: 98px; height: 70px; text-align: center; float: left; cursor:pointer;} 
+#nav_bar ul li a{text-decoration:none;color:#000;}
+#nav_bar ul li:hover{background-color: #f18e25; color: #f10909;}
+
+/*展示模块*/
+#show_main{width:1200px;height:400px;margin:10px auto;border:1px solid #e5e5e5;}
+#show_img{width:700px;height:370px;margin:15px;float:left;}
+#show_content{width:430px;height:370px;margin:15px;float:left;}
+#content_title{font-size:30px;margin:15px;color:#1f9bb7;}
+#content_msg{font-size:20px;margin:50px 15px 15px 15px;color:#e1b5b5;}
+#cotent_add {margin:25px 15px;font-size:15px;color:#e1b5b5;}
+#conten_rank{margin:25px 15px;color:#e1b5b5;font-size:15px;}
+#now_rank{font-size:20px;color:#f18e25;}
+#content_price{margin:80px 15px;color:#e1b5b5;font-size:15px;}
+#now_price{font-size:40px;color:#f18e25;font-weight:bolder;}
+#old_price{margin-left:20px;font-size:20px;}
+#order_btn{float:right;width:120px;height:50px;line-height:50px;font-size:20px;color:#fff;background-color:#f18e25;border:1px solid #fff;}
+#show_info{width:1200px;margin:30px auto;border:1px solid #e5e5e5;}
+#show_info_title{width:100%;height:50px;background-color:#f7f7f7;font-size:20px;line-height:40px;}
+#show_info_msg{padding:5px;text-indent:2em;}
+
+/*地图*/
+#allmap {height: 500px;width:1200px;overflow: hidden;border:1px solid black;margin:10px auto;}

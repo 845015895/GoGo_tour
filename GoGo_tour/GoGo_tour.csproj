@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7F20BD40-464F-44F9-906D-F8295F6E9AFB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GoGo_tour</RootNamespace>
+    <AssemblyName>GoGo_tour</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DBAccess">
+      <HintPath>..\DBAccess\bin\Debug\DBAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\drag.css" />
+    <Content Include="css\index.css" />
+    <Content Include="css\login.css" />
+    <Content Include="css\management.css" />
+    <Content Include="css\show_info.css" />
+    <Content Include="img\1.jpg" />
+    <Content Include="img\2.jpg" />
+    <Content Include="img\3.jpg" />
+    <Content Include="img\ad1.jpg" />
+    <Content Include="img\ad2.jpg" />
+    <Content Include="img\daocheng.jpg" />
+    <Content Include="img\emeishan.jpg" />
+    <Content Include="img\info_img1.jpg" />
+    <Content Include="img\info_img2.jpg" />
+    <Content Include="img\info_img3.jpg" />
+    <Content Include="img\info_img4.jpg" />
+    <Content Include="img\info_img5.jpg" />
+    <Content Include="img\info_img6.JPG" />
+    <Content Include="img\info_img7.jpg" />
+    <Content Include="img\info_img8.jpg" />
+    <Content Include="img\jiuzhaigou.jpg" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\logoko.png" />
+    <Content Include="img\logoko1.png" />
+    <Content Include="img\logoko_white.png" />
+    <Content Include="img\luguhu.jpg" />
+    <Content Include="img\search.jpg" />
+    <Content Include="img\search2.jpg" />
+    <Content Include="img\siguniangshan.jpg" />
+    <Content Include="img\timg.gif" />
+    <Content Include="img\timg1.gif" />
+    <Content Include="img\timg22.gif" />
+    <Content Include="img\toolbar.jpg" />
+    <Content Include="img\toolbar1.jpg" />
+    <Content Include="img\view1_small.jpg" />
+    <Content Include="img\view2_small.jpg" />
+    <Content Include="img\view3_small.jpg" />
+    <Content Include="img\view4_small.jpg" />
+    <Content Include="img\view5_small.jpg" />
+    <Content Include="img\喇叭.jpg" />
+    <Content Include="img\喇叭1.jpg" />
+    <Content Include="img\广告一.jpg" />
+    <Content Include="img\广告三.jpg" />
+    <Content Include="img\广告二.jpg" />
+    <Content Include="img\广告五.jpg" />
+    <Content Include="img\广告四.jpg" />
+    <Content Include="img\欢乐谷.jpg" />
+    <Content Include="img\青城山.jpg" />
+    <Content Include="index.aspx" />
+    <Content Include="js\drag.js" />
+    <Content Include="js\index_digit.js" />
+    <Content Include="js\index.js" />
+    <Content Include="js\index_clock.js" />
+    <Content Include="js\jquery-1.7.2.min.js" />
+    <Content Include="js\login.js" />
+    <Content Include="js\mAjax.js" />
+    <Content Include="js\show_info.js" />
+    <Content Include="login.aspx" />
+    <Content Include="management.aspx" />
+    <Content Include="management1.aspx" />
+    <Content Include="management2.aspx" />
+    <Content Include="management3.aspx" />
+    <Content Include="management4.aspx" />
+    <Content Include="show_info.aspx" />
+    <Content Include="sql\tour_info.sql" />
+    <Content Include="sql\tour_introduce.sql" />
+    <Content Include="sql\tour_user.sql" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WebForm1.aspx" />
+    <Content Include="WebUserControl1.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="management.aspx.cs">
+      <DependentUpon>management.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="management.aspx.designer.cs">
+      <DependentUpon>management.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="management1.aspx.cs">
+      <DependentUpon>management1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="management1.aspx.designer.cs">
+      <DependentUpon>management1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="management2.aspx.cs">
+      <DependentUpon>management2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="management2.aspx.designer.cs">
+      <DependentUpon>management2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="management3.aspx.cs">
+      <DependentUpon>management3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="management3.aspx.designer.cs">
+      <DependentUpon>management3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="management4.aspx.cs">
+      <DependentUpon>management4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="management4.aspx.designer.cs">
+      <DependentUpon>management4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="show_info.aspx.cs">
+      <DependentUpon>show_info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="show_info.aspx.designer.cs">
+      <DependentUpon>show_info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUserControl1.ascx.cs">
+      <DependentUpon>WebUserControl1.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUserControl1.ascx.designer.cs">
+      <DependentUpon>WebUserControl1.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="fonts\Anaheim-Regular.ttf" />
+    <Content Include="fonts\BrunoAce-Regular.ttf" />
+    <None Include="Properties\PublishProfiles\gogo_tour.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:2241/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

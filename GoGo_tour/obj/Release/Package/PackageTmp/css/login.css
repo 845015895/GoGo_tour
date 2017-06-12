@@ -1,0 +1,209 @@
+html{
+	height: 100%
+}
+body{
+	margin:0;
+	padding: 0;
+    /* background: linear-gradient(to bottom,#e0eee8,#e0f0e9,#c0ebd7,#bbcdc5); */
+    background: linear-gradient(to bottom,#e0eee8,#e0f0e9,#c0ebd7,#bbcdc5);
+    width: 100%;
+
+
+}
+#title{
+	width:800px;
+	margin:0 auto;
+    margin-top:50px;
+	background-image: url("../img/timg22.gif");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+#main{
+	width:800px;
+	height: 400px;
+	margin:0 auto;
+
+
+}
+#ad{
+	width: 400px;
+	height: 380px;
+	float: left;
+	margin:8px;
+	border-radius: 20px;
+	background-image: url("../img/timg.gif");
+	background-size: cover;
+	background-repeat:no-repeat;
+
+	box-shadow:0 0 30px 10px #e0eee8 inset;
+}
+#login{
+	width: 360px;
+	height: 380px;
+	border:2px solid #f3f9f1;
+	float: left;
+	margin:8px;
+	background: #e0f0e9;
+	border-radius: 20px;
+}
+#login_title{
+	width: 350px;
+	height: 50px;
+	border-bottom: 2px solid #c2ccd0;
+	margin:4px;
+
+}
+#login_title ul{
+	list-style: none;
+	padding-left: 0px;
+	margin: 0px;
+}
+#login_title ul li{
+	text-align: center;
+	float: left;
+	font-size: 30px;
+	font-weight: bolder;
+	width: 80px;
+	height: 50px;	
+	margin-left: 10px;
+	cursor: pointer;
+}
+#login_title ul li:hover{
+	color:#dc3023;
+	border-bottom: 2px solid #dc3023;
+}
+#login_content{
+	position: relative;
+    width: 350px;
+    height: 310px;
+    margin:4px;
+    
+/*    border: 1px solid red;*/
+}
+#regist_content{
+	position: absolute;
+	display: none;
+	width: 350px;
+    height: 310px;
+    margin:4px;
+
+}
+.lb{
+    position: absolute;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.ipt{
+	position: absolute;
+	font-size: 18px;
+	border-radius: 5px;
+}
+.ip_check{
+	position: absolute;
+	font-size: 15px;
+
+}
+.lb_remember{
+	position: absolute;
+	font-size: 15px;
+
+}
+.a_forget{
+	position: absolute;
+	text-decoration: none;
+	color:#75878a;
+}
+.a_forget:hover{
+	color:#3d3b4f;
+}
+.ip_btn_login{
+	position: absolute;
+	width: 200px;
+	height: 35px;
+	border-radius: 20px;
+	font-size: 20px;
+	background-color: #7bcfa6;
+	cursor: pointer;
+}
+.ip_btn_login:hover{
+	background-color: #a4e2c6;
+}
+.ipt_check{
+	position: absolute;
+	font-size: 15px;
+	border-radius: 5px;
+	width: 80px;
+}
+.col1{
+	left:10%;
+}
+.col2{
+	left: 37%;
+}
+.col3{
+	left:45%;
+}
+.col4{
+	left:70%;
+}
+.row1{
+	top: 13%;
+}
+.row2{
+	top:33%;
+}
+.row3{
+	top:53%;
+}
+.row4{
+	top:73%;
+}
+.row5{
+	top:85%;
+}
+.reg_row1{top: 10%;}
+.reg_row2{top: 25%;}
+.reg_row3{top: 40%;}
+.reg_row4{top: 55%;}
+.reg_row5{top: 70%;}
+.reg_row6{top: 85%;}
+.active{
+	color:#dc3023;
+	border-bottom: 2px solid #dc3023;
+}
+#LoginTip {
+position:absolute;
+left:5%;
+top:88%;
+color:red;
+font-size:15px;
+}
+#RegTip {
+    position: absolute;
+    left: 37%;
+    top: 2%;
+    color: red;
+    font-size: 15px;
+}
+/*×¢²áÑéÖ¤Âë*/
+.nocode {  
+	display: inline-block;
+    width: 100px;  
+    height: 25px;  
+}  
+  
+.code {  
+	display: inline-block;
+    color: #ff0000;  
+    font-family: Tahoma, Geneva, sans-serif;  
+    font-style: italic;  
+    font-weight: bold;  
+    text-align: center;  
+    width: 100px;  
+    height: 25px;  
+    line-height: 25px;
+    cursor: pointer;  
+    border:1px solid #e2b4a2;
+    background: #e2b4a2;
+}  
